@@ -40,6 +40,49 @@
 
 ![image](https://user-images.githubusercontent.com/109730490/180463848-e83a07c5-b8af-456d-a4c5-0f4f0a9fb224.png)
 
+#### Float & Double
+
+>Bu iki veri tipi ondalıklı sayılar için kullanılır.
+
+![image](https://user-images.githubusercontent.com/109730490/180547249-ca807459-ce6c-4444-9f47-cf113fc1a06a.png)
+
+- Kesirli sayılarda default olarak tanımlanan veri tipi double'dır.
+
+- Float virgülden sonra en fazla 6-7 rakam alırken double virgülden sonra en fazla 15-16 rakam alır.
+
+- Double ve Float arasındaki tek fark depolama alanıdır.
+
+>Bir değişkeni tanımladıktan sonra o değişkeni bir yerde yazıp nokta koyduğumuzda o değişkenle ilgili kullanabileceğimiz özellikler görünür:
+
+![image](https://user-images.githubusercontent.com/109730490/180565102-eb506eea-e544-40e1-ab47-4f725b16cb69.png)
+
+>NOT: Kotlin'de bir kez veri tipini belli ettikten sonra değişkene başka türden bir değer atanamaz. Python buna izin verir.
+
+>Boolean veri tipi; true ya da false değerlerini alır. Kontrollerde ve koşullarda kullanılır.
+
+- (<)   küçüktür
+- (>)   büyüktür
+- (>=)  büyük eşittir
+- (<=)  küçük eşittir
+- (==)  eşittir
+- (!=)  eşit değildir
+- (&&)  ve
+- (||)  veya
+
+### KOLEKSİYONLAR
+
+>Koleksiyonlar; içinde birden fazla veri ve birden fazla tipinin tutulabildiği yapılardır.  
+
+- 1)Array (Dizi)
+
+>arrayOf metodu: Bir şeyin dizisini oluşturur. 
+
+>booleanArrayOf metodu: Boolean'lar dizisi oluşturur.
+
+>Diziler index mantığı ile çalışır böylece elemanlarına ulaşabiliriz. 
+
+>NOT: Diziyi val olarak tanımlasak bile içindeki elemanları değiştirebiliriz çünkü diziyideğil içindeki elemanları değiştiriyoruz. 
+
 ### Kaynaklar
 
 - [kotlinlang.org](https://kotlinlang.org/docs/basic-types.html#numbers)
