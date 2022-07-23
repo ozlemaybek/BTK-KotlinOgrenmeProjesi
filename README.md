@@ -83,6 +83,45 @@
 
 >NOT: Diziyi val olarak tanımlasak bile içindeki elemanları değiştirebiliriz çünkü diziyideğil içindeki elemanları değiştiriyoruz. 
 
+- 2)ArrayList
+
+>Diziler ve listeler arasındaki fark; listelerin biraz daha esnek olmasından kaynaklanır. 
+
+>Daha sonradan ekleme yapmak istediğimizde listelerle daha kolay işlem yapabiliyoruz. 
+
+>ArrayList oluşturmak için arrayListOf metodunu kullanıyoruz. 
+
+>ArrayList oluştururken (<>) içinde ArrayList'i hangi veri tipinde oluşturacağımızı belirtmemiz gerekir. Bu bazı durumlarda zorunludur bazı durumlarda ise gerekli değildir.
+
+![image](https://user-images.githubusercontent.com/109730490/180600169-4d01b565-d9cf-4672-893c-02c2e824a874.png)
+
+>ArrayList'in Array'e göre esnek olduğu nokta; yeni bir eleman eklemenin daha kolay olmasıdır. Array'de set kullanabilirken ArrayList'te add metoduda vardır.
+
+>ArrayList'te karışık veri tipleri tutmak için "Any" kelimesini kullanırız.
+
+>arrayListOf metodu kotline özgü bir özellik.
+
+### Kotlin'de Metin İçerisinde Kod Ekleme
+![image](https://user-images.githubusercontent.com/109730490/180601407-304f3a41-1e1b-4d00-96dd-b911a54e9039.png)
+
+- 3)Set
+
+>Set'te diğer koleksiyon tipleri gibi içinde birden fazla veri tipi barındırabilen bir yapı ama aynı veriden sadece bir tane koyabiliyoruz. 
+
+>Bir Set oluşturmak için setOf metodunu kullanırız.
+
+>Set koleksiyonunda get metodu yoktur ve indexleri kullanarakta ulaşamayız. Bu yüzden For Each döngüsünü kullanacağız:
+
+- 4)Map
+
+>Map bazı programlama dillerinde sözlük diye geçer.
+
+>Map'te değer ve anahtar kelime ve değer eşleşmeleri (key - value pairing) yapıyoruz.
+
+>Diyelimki iki tane dizimiz var ve bu iki dizi içerisinde eşlenik değerlerimiz var. Bunları birleşmiş halde HashMap'te tutabiliriz.
+
+>HashMap'te add metodu yoktur bunun yerine put metodu vardır.  
+
 ### Kaynaklar
 
 - [kotlinlang.org](https://kotlinlang.org/docs/basic-types.html#numbers)
